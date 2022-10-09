@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mahpara.pet_planner">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_01">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_02">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_03" />
+        <activity android:name=".Activity_06" />
+        <activity android:name=".Activity_08" />
+        <activity android:name=".Activity_05" />
+        <activity android:name=".Activity_07" />
+        <activity android:name=".Activity_09" />
+        <activity android:name=".Activity_10" />
+        <activity
+            android:name=".Activity_04"
+            android:label="@string/title_activity_04"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

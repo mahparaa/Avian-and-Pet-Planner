@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    tools:context="com.example.mahpara.myapp.MainActivity6">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:title="Diseases Detail"
+        app:titleTextColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:id="@+id/re12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_specice_diseasesdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:text="ENTER PET SPECIE"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner1_diseasesdetail"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_specice_diseasesdetail"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/button2_diseasesdetail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_2"
+            android:drawableStart="@drawable/pet_diseases"
+            android:paddingLeft="50dp"
+            android:text="@string/diseases_and_suggestions"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            tools:text="Diseases Deatil" />
+
+    </LinearLayout>
+
+</RelativeLayout>

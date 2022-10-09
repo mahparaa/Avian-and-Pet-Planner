@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <string name="app_name">
+    </string>
+
+    <string-array name="specie">
+        <item> pick up the pet...</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Bird</item>
+        <item>Hen/Chicken</item>
+        <item>Fish</item>
+    </string-array>
+
+    <string-array name="breed">
+        <item> select the pet breed...</item>
+        <item>Any Other ?</item>
+        <item>Huskie</item>
+        <item>German Shaperd</item>
+        <item>Rotte</item>
+        <item>poodle</item>
+        <item>Beagle</item>
+        <item>Persian</item>
+        <item>Siamese</item>
+        <item>British Short</item>
+        <item>Bombay</item>
+        <item>American short hairs</item>
+        <item>Boiler</item>
+        <item>Wavy </item>
+        <item>Love-Birds </item>
+        <item>Finches</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>  pick up the age...</item>
+        <item>Small(below 1 year)</item>
+        <item>Adult</item>
+        <item>Senior Adult</item>
+    </string-array>
+
+    <string-array name="plan">
+        <item> choose diet plan...</item>
+        <item>Weekly Plan </item>
+        <item>Daily Plan </item>
+    </string-array>
+    <string name="title_activity_04">Activity_04</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

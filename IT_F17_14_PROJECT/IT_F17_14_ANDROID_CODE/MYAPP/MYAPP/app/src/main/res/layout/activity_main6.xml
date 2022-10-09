@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    android:orientation="vertical"
+    tools:context="com.example.mahpara.myapp.MainActivity6">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:title="Diseases Detail"
+        app:titleTextColor="@android:color/background_light" />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re12"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="Select Pet"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinner1_diseasesdetail"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:popupBackground="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button2_diseasesdetail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        android:drawableStart="@drawable/pet_diseases"
+        android:paddingLeft="80dp"
+        android:text="@string/diseases_and_suggestions"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        tools:text="Diseases Deatil" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/backpick" />
+
+
+</LinearLayout>

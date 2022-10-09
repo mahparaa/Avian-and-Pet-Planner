@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    android:orientation="vertical"
+    tools:context="com.example.mahpara.myapp.MainActivity4">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:title="Diet Plan"
+        app:titleTextColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:id="@+id/re12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/speciediet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:text="ENTER PET SPECIE"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner1_diet"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_button" />
+        <TextView
+            android:id="@+id/breeddiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="ENTER PET BREED"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner2_diet"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_button" />
+
+
+        <TextView
+            android:id="@+id/agediet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER PET AGE"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner3_diet"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_button" />
+        <TextView
+            android:id="@+id/plandiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER PET PLAN"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner4_diet"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_button"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/buttondietplan_2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_2"
+            android:drawableStart="@drawable/pet_diet"
+            android:paddingLeft="50dp"
+            android:text="@string/generate_diet_plan"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            tools:text="Generate plan" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffbd4a">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/colorAccent"
+    app:titleTextColor="@android:color/background_light"
+    app:title="Appointment Description">
+
+</android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="26dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:hint="Please mention pet name and disease detail"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp"
+                android:id="@+id/l1"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@+id/des">
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date_txt"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:hint="Date"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Date"
+                    android:background="@drawable/corner_2"
+                    android:textColor="@android:color/background_light"
+                    android:id="@+id/date_btn"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/l2"
+                android:layout_below="@+id/l1">
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Time"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:id="@+id/time_txt"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Time"
+                    android:background="@drawable/corner_2"
+                    android:textColor="@android:color/background_light"
+                    android:id="@+id/time_btn"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit"
+                android:text="Submit"
+                android:background="@drawable/corner_2"
+                android:textColor="@android:color/background_light"
+                android:layout_margin="30dp"
+                android:layout_below="@+id/l2"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

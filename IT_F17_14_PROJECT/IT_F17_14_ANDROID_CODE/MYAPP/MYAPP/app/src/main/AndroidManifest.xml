@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahpara.myapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".HomeAcivity" />
+        <activity android:name=".MainActivity_Add" />
+        <activity android:name=".ViewDataActivity" />
+        <activity android:name=".Doctor_Appoinment.TestActivity" />
+        <activity android:name=".Doctor_Appoinment.doctorView" />
+        <activity android:name=".Alarm_Notification.AlarmActivity" />
+        <activity android:name=".Alarm_Notification.AlarmCards" />
+        <activity android:name=".Doctor_Appoinment.AddDocActivity" />
+
+        <service android:name=".Alarm_Notification.AlarmService" />
+        <service android:name=".Alarm_Notification.mService" />
+
+        <receiver android:name=".Alarm_Notification.AlarmReceiver" />
+
+        <activity android:name=".MainActivity_Diet_Plan_Load" />
+        <activity android:name=".Doctor_Appoinment.AppointmentDetail" />
+        <activity android:name=".MainActivity_Diseases_Load"></activity>
+    </application>
+
+</manifest>

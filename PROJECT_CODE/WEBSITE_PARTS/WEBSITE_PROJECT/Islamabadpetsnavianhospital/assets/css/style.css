@@ -1,0 +1,281 @@
+
+
+/* ===========================================================
+   STYLE SHEET#01   
+   ============================================================*/
+
+
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url("../img/b1.jpg"); /* background of all website*/
+    line-height: 16px;
+    font-weight: 400;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fff; /*white*/
+    font-weight: 900px;
+}
+h2 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #e57373;
+    font-weight: 900px;
+    letter-spacing: 2px;
+}
+/* doctor name heading*/
+h3 {
+    padding-bottom: 3px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+} /* paragrapghs*/
+h4
+{
+    font-size: 13px;
+    word-spacing: 1px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 900px;
+}/*PICS DETAILS*/
+h5 {
+    padding-bottom: 20px;
+    font-size: 15px;
+    word-spacing: 2px;
+}/*BULLET POINTS*/
+
+
+.text-center {
+    text-align: center;
+}
+
+.main-top-margin {
+    margin-top: 55px;
+}
+
+.main-low-margin {
+    margin-top: 20px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.img-margin-product {
+    margin-top: 30px;
+}
+
+.bottam-pad {
+    padding-bottom: 40px;
+}
+
+.space-bottom {
+    height: 20px;
+}
+
+.space-top {
+    height: 50px;
+}
+
+.main-icon {
+    font-size: 350px;
+    color: rgba(102, 110, 197, 1);
+}
+
+.head-line {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 10px;
+    font-weight: 900;
+}
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+
+
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+.navbar {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse 
+{
+    background: #800000;   
+    border-color:#800000;
+} /* color of menu bar*/ 
+.navbar-inverse .navbar-nav > .active > a 
+{
+    background: #ffffff;
+}
+.navbar-inverse .navbar-brand 
+{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.navbar-inverse :hover .navbar-brand:hover 
+{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a 
+{
+    color: #FFFFFF;
+}
+
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-green {
+    color: #07BB00;
+}
+
+.color-light-blue {
+    color: #BB00BB;
+}
+
+.color-blue {
+    color: #0052FF;
+}
+
+.color-brown {
+    color: #EB8F2D;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.section {
+    background-color:#A1AC16 ;
+    color: #fff;
+}  /* For All Block background color*/
+
+/* ==========================================================================
+  SCHDULE SECTION
+   ========================================================================== */
+
+.active 
+{
+    background-color: #EB8F22;
+}
+
+
+#schdule-section .plan-main
+{
+    background-color: #A1AC16;
+    list-style: upper-hexadecimal;
+    text-align: center;
+
+}
+
+#schdule-section .plan-main li 
+{
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 200px;
+    font-weight: bold;
+    padding-bottom:  2px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ==========================================================================
+   WEB STYLES
+   ========================================================================== */
+section 
+{
+    position: relative;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+section:nth-of-type(1) 
+{
+    background: #FAFAFA;
+    height: 300px;
+}
+section:nth-of-type(2) 
+{
+    background: #FAFAFA;
+    height: 300px;
+}
+#story-freext > div:nth-of-type(1) 
+{
+    background: url(../img/1.jpg) 50% 0 no-repeat fixed;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+}
+
+#story-two > div:nth-of-type(2) 
+{
+    background: url(../img/2.jpg) 50% 0 no-repeat fixed;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+}
+
+section article 
+{
+    position: absolute;
+    left: 80px;
+    width: 100%;
+    z-index: 4;
+    color: #fff;
+    font-size: 20px!important;
+    padding: 20px;
+}
+section article span 
+{
+    line-height: 40px!important;
+    font-weight: 600!important;
+}
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+
+#footer 
+{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}

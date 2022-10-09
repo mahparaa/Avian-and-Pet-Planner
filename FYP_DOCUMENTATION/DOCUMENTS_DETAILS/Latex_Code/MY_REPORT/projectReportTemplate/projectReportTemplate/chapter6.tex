@@ -1,0 +1,197 @@
+\chapter{System Testing and Evaluation}\label{chap:testingEvaluation}
+
+\section{Test Cases}
+Testing is extremely important, both to ensure that the system meets requirements and to ensure that it is free of errors. That is why it is performed throughout the development process at every level.
+
+\subsection{User Authentication}
+
+\begin{table}[ht]
+\centering
+\label{User Authentication}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                      & Test 1                                                                                                                     \\ \hline
+Objective                         & Verify Registration/ login activity.                                                                                       \\ \hline
+Environment                       & Android Application                                                                                                        \\ \hline
+Prerequisite                      & Application must run.                                                                                                      \\ \hline
+Method                            & \begin{tabular}[c]{@{}l@{}}1. Enter Valid email.\\ 2. Enter Valid Password.\\3. Click on Register/Login button.\end{tabular} \\ \hline
+Expected Results                  & After successful verification user is able to login.                                                       \\ \hline
+Verification should be performed. & Pass                                                                                                                       \\ \hline
+\end{tabular}
+\caption{User Authentication}
+\end{table}	
+Enter valid email, password and then click on login button for verification. If user is not register then enter email, password and phone for registration.  After successful verification user is able to login into the system.
+
+	
+\newpage
+\subsection{Add Pet Profile}
+\begin{table}[ht]
+\centering
+\label{Add Pet Profile}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                         & Test 2                                                                                                             \\ \hline
+Objective                            & Pet profiles details should be added into the database.                                               \\ \hline
+Environment                          & Android Application                                                                                                \\ \hline
+Prerequisite                         & Application must run.                                                                                              \\ \hline
+Method                               & \begin{tabular}[c]{@{}l@{}}1- Fill the all the input text fields properly.\\ 2- Click on save button.\end{tabular} \\ \hline
+Expected Results                     & Should save into the database successfully.                                                                        \\ \hline
+Database  updated successfully. & Pass                                                                                                               \\ \hline
+\end{tabular}
+\caption{Add Pet Profile}
+\end{table}
+
+Fill all the input fields properly then click on save button to upload data. Data base should be updated successfully.
+
+
+\newpage
+\subsection{Add Doctor Profile}
+\begin{table}[ht]
+\centering
+\label{Add Doctor Profile}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                         & Test 3                                                                                                                                                                      \\ \hline
+Objective                            & Doctor profiles details should be added into the database.                                                                                                     \\ \hline
+Environment                          & Android Application                                                                                                                                                         \\ \hline
+Prerequisite                         & Application must run.                                                                                                                                                       \\ \hline
+Method                               & \begin{tabular}[c]{@{}l@{}}1- Fill the all the input text fields properly.\\ 2- Enter correct hospital id assigned by the hospital.\\ 3- Click on save button.\end{tabular} \\ \hline
+Expected Results                     & Should save into the database successfully.                                                                                                                                 \\ \hline
+If database is updated successfully. & Pass                                                                                                                                                                        \\ \hline
+\end{tabular}
+\caption{Add Doctor Profile}
+\end{table}
+Fill the all the input text fields properly. Enter correct hospital id assigned by the hospital. Click on save button. Data base should be updated successfully.
+	
+\newpage
+\subsection{View Pet Profile}
+\begin{table}[ht]
+\centering
+\label{View Pet Profile}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                        & Test 4                                                       \\ \hline
+Objective                           & To view to pet profile.                                       \\ \hline
+Environment                         & Android Application                                           \\ \hline
+Prerequisite                        & Application must run.                                         \\ \hline
+Method                              & 1- Click on View profile button.                              \\ \hline
+Expected Results                    & Pet profile of the pet owner should be fetched from the database. \\ \hline
+If profile is successfully fetched. & Pass                                                          \\ \hline
+\end{tabular}
+\caption{View Pet Profile}
+\end{table}	
+Click on View profile button.  Pet profile should be fetched from the database.
+
+\newpage
+\subsection{Generate pet Diet Plan}
+\begin{table}[ht]
+\centering
+\label{Generate pet Diet Plan}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                        & Test 5                                                                                                           \\ \hline
+Objective                           & Diet plan should be fetched successfully.                                                                        \\ \hline
+Environment                         & Android Application                                                                                              \\ \hline
+Prerequisite                        & Application must run.                                                                                            \\ \hline
+Method                              & \begin{tabular}[c]{@{}l@{}}1- Select pet specie, breed and age.\\ 2- Click on Generate Plan button.\end{tabular} \\ \hline
+Expected Results                    & Pet diet plan should be fetched from database successfully.                                                          \\ \hline
+If successfully fetch from database & Pass                                                                                                             \\ \hline
+\end{tabular}
+\caption{Generate pet Diet Plan}
+\end{table}
+Select pet specie, breed and age. Click on Generate Plan button.  Diet plan should be fetched from database.
+
+\newpage
+\subsection{View Pet Diseases Detail}
+\begin{table}[ht]
+\centering
+\label{View Pet Diseases Detail}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                        & Test 6                                                                                                               \\ \hline
+Objective                           & \begin{tabular}[c]{@{}l@{}}Common diseases details of pets should be fetched from the \\ database successfully.\end{tabular} \\ \hline
+Environment                         & Android Application                                                                                                  \\ \hline
+Prerequisite                        & Application must run.                                                                                                \\ \hline
+Method                              & \begin{tabular}[c]{@{}l@{}}1-Select pet specie.\\ 2-Click on View Details button.\end{tabular}                       \\ \hline
+Expected Results                    & Details should be fetched from database successfully.                                                                \\ \hline
+If successfully fetch from database & Pass                                                                                                                 \\ \hline
+\end{tabular}
+\caption{View Pet Diseases Detail}
+\end{table}
+Select pet specie. Click on View Details button.  Details should be fetched from database.
+
+\newpage
+\subsection{Notification Alarm}
+\begin{table}[ht]
+\centering
+\label{Notification Alarm}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                   & Test 7                                                                                                                                                                                                                                    \\ \hline
+Objective                      & Alarm should be generated on time and can be deleted at any time.                                                                                                                                                                         \\ \hline
+Environment                    & Android Application                                                                                                                                                                                                                       \\ \hline
+Prerequisite                   & Application must run.                                                                                                                                                                                                                     \\ \hline
+Method                         & \begin{tabular}[c]{@{}l@{}}1-Enter the pet name and set the alarm \\  time.\\ 2-Click on Set Alarm Button.\\ 3-Click on alarm list to view the list.\\ 4-Click on turnoff sign to turn off or delete \\  button to delete the alarm.\end{tabular} \\ \hline
+Expected Results               & Alarm should be generated or deleted on any time.                                                                                                                                                                         \\ \hline
+Generate alarm on time. & Pass                                                                                                                                                                                                                                      \\ \hline
+\end{tabular}
+\caption{Notification Alarm}
+\end{table}
+Enter the pet name and set the alarm time. Click on Set Alarm button. Click on alarm list to view the list. Click on turnoff sign to turn off or delete button to delete the alarm. Alarm should be generated on time and can be deleted at any time for successful test case.
+
+\newpage
+\subsection{Take / Cancel Appointment}
+\begin{table}[ht]
+\centering
+
+\label{Take / Cancel Appointment}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                                & Test 8                                                                                                                                                                                                                                 \\ \hline
+Objective                                   & Test the Appointment activity.                                                                                                                                                                                                         \\ \hline
+Environment                                 & Android Application                                                                                                                                                                                                                    \\ \hline
+Prerequisite                                & Application must run.                                                                                                                                                                                                                  \\ \hline
+Method                                      & \begin{tabular}[c]{@{}l@{}}1-If Appointment button is clicked then email should be send and\\ button should be disabled.\\ 2-If Cancel button is clicked then email should be send and\\    button should be disabled.\end{tabular} \\ \hline
+Expected Results                            & Email should be send in both functions.                                                                                                                                                                                                \\ \hline
+Response should be fired. & Pass                                                                                                                                                                                                                                   \\ \hline
+\end{tabular}
+\caption{Take / Cancel Appointment}
+\end{table}
+If Appointment button is clicked then email should be send and button should be disabled. If Cancel button is clicked then email should be send and button should be disabled. Email should send in both cases.
+\newpage
+\subsection{Logout}
+\begin{table}[ht]
+\centering
+\label{Log Out}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID                                          & Test 9                                    \\ \hline
+Objective                                             & Verify logout functionality.              \\ \hline
+Environment                                           & Android Application                       \\ \hline
+Prerequisite                                          & Application must run.                     \\ \hline
+Method                                                & 1-Click on Logout button.                 \\ \hline
+Expected Results                                      & When click on logout button user should log out. \\ \hline
+Click on Logout button to logout. & Pass                                      \\ \hline
+\end{tabular}
+\caption{Log Out}
+\end{table}
+Click on Logout button.  When click on logout button user should log out.
+
+\newpage
+\subsection{Website Test Case}
+\begin{table}[ht]
+\centering
+\label{Website Test Case}
+\begin{tabular}{|l|l|}
+\hline
+Test Case ID               & Test 10                                                                                                                      \\ \hline
+Objective                  & Relevant information should be displayed and appointment can be taken.                                           \\ \hline
+Environment                & Website Application                                                                                                           \\ \hline
+Prerequisite               & Website must run.                                                                                                             \\ \hline
+Method                     & \begin{tabular}[c]{@{}l@{}}1-Click on any button for information.\\ 2-Input correct information for appointment.\end{tabular} \\ \hline
+Expected Results           & Information should be displayed successfully and appointment is taken.                                                        \\ \hline
+If is successfully viewed. & Pass                                                                                                                          \\ \hline
+\end{tabular}
+\caption{Website Test Case}
+\end{table}
+Click on any button for information. Input correct information for appointment.  Information should be displayed successfully and appointment is taken

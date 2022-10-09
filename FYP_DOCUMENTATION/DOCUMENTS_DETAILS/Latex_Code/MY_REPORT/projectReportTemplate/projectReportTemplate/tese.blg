@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: D:\Thesis\tese.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: acknows.aux
+A level-1 auxiliary file: quote.aux
+A level-1 auxiliary file: abbrevs.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: appendix1.aux
+The style file: plainnat-pt.bst
+I couldn't open database file myrefs.bib
+---line 30 of file D:\Thesis\tese.aux
+ : \bibdata{myrefs
+ :                }
+I'm skipping whatever remains of this command
+I found no database files---while reading file D:\Thesis\tese.aux
+Warning--I didn't find a database entry for "mg06"
+Warning--I didn't find a database entry for "rdps05"
+Warning--I didn't find a database entry for "oais"
+Warning--I didn't find a database entry for "dcpca00"
+Warning--I didn't find a database entry for "dpec10"
+(There were 2 error messages)

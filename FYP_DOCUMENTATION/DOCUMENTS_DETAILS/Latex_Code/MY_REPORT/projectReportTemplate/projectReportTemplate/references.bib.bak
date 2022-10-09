@@ -1,0 +1,269 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{ICSyu,
+  Title                    = {VNC ARCHITECTURE BASED REMOTE DESKTOP ACCESS THROUGH ANDROID MOBILE PHONES},
+  Author                   = {Archana Jadhav, Vipul Oswal, Sagar Madane, Harshal Zope},
+  Journal                  = {Engineering Vol. 1, Issue 2},
+  Year                     = {2012},
+
+  Month                    = apr,
+  Volume                   = {1}
+}
+
+@Article{ISC01,
+  Title                    = {AN OPTIMIZATION MODE FOR INDUSTRIAL LOAD MANAGEMENT},
+  Author                   = {ASHOK, RANGAN BANERJEE},
+  Journal                  = {." IEEE TRANSACTIONS ON POWER SYSTEMS 16.4},
+  Year                     = {2001},
+  Pages                    = {879-884}
+}
+
+@Book{wbook02,
+  Title                    = {Embedded Design of an Emotion-Aware Music Player},
+  Author                   = {Carlos A. Cervantes and Kai-Tai Song},
+  Publisher                = {Microsoft},
+  Year                     = {2013}
+}
+
+@Misc{petcoach,
+  Title                    = {Pet Coach-Ask a Vet Online for Free, 24/7. (n.d.).},
+
+  Author                   = {Pet Coach},
+  Month                    = {September},
+  Year                     = {2017},
+
+  Url                      = {https://www.petcoach.co/}
+}
+
+@Misc{capsfive,
+  Title                    = {20 Apps for Pet Lovers.},
+
+  Author                   = {Corpuz, J.},
+  Month                    = dec,
+  Year                     = {2008},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://www.tomsguide.com/us/pictures-story/1074-best-pet-apps.htmls2}
+}
+
+@Misc{petfirstage,
+  Title                    = {Pet First Aid -Android Apps on Google Play.},
+
+  Author                   = {Red Cross},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Url                      = {https://play.google.com/store/apps/details?id=com.cube.arc.pfa&hl=en.}
+}
+
+@Misc{caps,
+  Title                    = {Read and Write Data on Android | Firebase.},
+
+  Author                   = {Google, Android},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://firebase.google.com/docs/database/android/read-and-write.}
+}
+
+@Article{ICS03,
+  Title                    = {Software Engineering with Microsoft Visual Studio Team System (Microsoft. NET Development Series)},
+  Author                   = {Guckenheimer, Sam and Juan J. Perez},
+  Journal                  = {Addison-Wesley Professional},
+  Year                     = {2006}
+}
+
+@Article{ICS01,
+  Title                    = {Get a head start on SQL Server 2016 with this how-to guide},
+  Author                   = {David Hobbs-Mallyon},
+  Journal                  = {Signal Processing Letters,IEEE 9.2},
+  Year                     = {2017},
+
+  Month                    = jun,
+
+  Acmid                    = {1053309},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/1053291.1053309},
+  ISSN                     = {0001-0782},
+  Issue_date               = {April 2005},
+  Numpages                 = {5},
+  Owner                    = {Dr. Arif Ur Rahman},
+  Publisher                = {ACM},
+  Timestamp                = {2015.09.10},
+  Url                      = {http://doi.acm.org/10.1145/1053291.1053309}
+}
+
+@Article{ICS07,
+  Title                    = {What is human resource management?},
+  Author                   = {Legge and Karen},
+  Journal                  = {Human Resource Management. Macmillan Education UK},
+  Year                     = {1995}
+}
+
+@Misc{capsfour,
+  Title                    = {Best Apps For Every Pet Parent.},
+
+  Author                   = {Mypet.com},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {http://www.mypet.com/basic-pet-care/10-best-apps.aspx.}
+}
+
+@Misc{capsnine,
+  Title                    = {Adopt a pet. by ASPCA},
+
+  Author                   = {Adopt a Pet. (n.d.).},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {Adopthttps://www.aspca.org/adopt}
+}
+
+@Misc{capstw,
+  Title                    = {First Aid For Pets - Android Apps on Google Play.},
+
+  Author                   = {Google Play Store - First Aid for Pets},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://play.google.com/store/apps/details?id=com.boehringer.FirstAidForPets&hl=en.}
+}
+
+@Misc{wpage01,
+  Title                    = {“Android Tutorial.” www.tutorialspoint.com, Tutorials Point},
+
+  Author                   = {Point, Tutorials},
+  HowPublished             = {19},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Url                      = {www.tutorialspoint.com/android/}
+}
+
+@Misc{capstwo,
+  Title                    = {Other Items of Interest},
+
+  Author                   = {raywenderlich},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://www.raywenderlich.com/category/android.}
+}
+
+@Misc{capseven,
+  Title                    = {MyPetReminders - Android Apps on Google Play.},
+
+  Author                   = {My Pet Reminders},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://play.google.com/store/apps/details?id=com.mypetreminders&hl=en.}
+}
+
+@Misc{capsthree,
+  Title                    = {Pet Web Site},
+
+  Author                   = {Pet Web Site},
+  Month                    = sep,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {http://www.petwebsite.co.uk/.}
+}
+
+@Misc{capseleven,
+  Title                    = {PetCoach - Ask a vet for free - Android Apps on Google Play.},
+
+  Author                   = {Google Play Store},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://play.google.com/store/apps/details?id=co.petcoach&hl=en.}
+}
+
+@Misc{capsrover,
+  Title                    = {Rover - Dog Boarding \& Walking},
+
+  Author                   = {Google Play Store},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://play.google.com/store/apps/details?id=com.rover.android&hl=en.}
+}
+
+@Misc{capssten,
+  Title                    = {Dog Health - Android Apps on Google Play.},
+
+  Author                   = {Google Play Store},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://play.google.com/store/apps/details?id=it.lobofun.doghealt&hl=en.}
+}
+
+@Misc{capseight,
+  Title                    = {Dog Sync Full Android release coming soon},
+
+  Author                   = {Dog Sync},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {http://dogsync.com/wait.php}
+}
+
+@Article{ICS02,
+  Title                    = {Financial ratios as a means of forecasting bankruptcy},
+  Author                   = {Tamari and Meir},
+  Journal                  = {Management International Review},
+  Year                     = {1996},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {15-21}
+}
+
+@Misc{capsix,
+  Title                    = {Track the daily walks with your beloved four-legged friend!},
+
+  Author                   = {Dog Walk Tracking},
+  Month                    = dec,
+  Year                     = {2017},
+
+  Owner                    = {Waqar Arshad},
+  Timestamp                = {2018.05.07},
+  Url                      = {https://dogwalk.tractive.com/en/.}
+}
+
+@Article{ICS04,
+  Title                    = {Getting Started with ASP.NET Web API 2 (C)},
+  Author                   = {Mike Wasson},
+  Year                     = {2017}
+}
+
+@comment{jabref-meta: databaseType:bibtex;}
+

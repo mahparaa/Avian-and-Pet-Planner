@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "280549739555",
+    "firebase_url": "https://pet-appp.firebaseio.com",
+    "project_id": "pet-appp",
+    "storage_bucket": "pet-appp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280549739555:android:8e28a1b85ab0c77d",
+        "android_client_info": {
+          "package_name": "com.mahpara.pet_lover_nevigation_fragments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280549739555-qn9prodb65nheja8ormqbcvdebfi6mjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9tKSneXn6AjuGfR_02qWxshHnFWIdQCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

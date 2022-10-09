@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diet_plan">Diet plan</string>
+    <string name="diseases_and_suggestions">diseases Details</string>
+    <string name="notification_detail">notification_detail</string>
+    <string name="appointment">appointment</string>
+    <string name="save">Save</string>
+    <string name="pet_planner">pet_planner</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="button">Button</string>
+
+
+</resources>

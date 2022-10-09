@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    tools:context="com.example.mahpara.myapp.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:title="Pet Planner"
+        app:titleTextColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/emaillogin"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:drawableStart="@drawable/ic_email_icon"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emaillogin"
+        android:layout_below="@+id/emaillogin"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_password_icon"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/passwordlogin"
+        android:layout_below="@+id/passwordlogin"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/corner_2"
+        android:text="@string/login"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/registerview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/do_not_have_an_account_click_here"
+        android:textColor="#000"
+        android:textSize="14sp"
+        tools:text="Don't Have an Account? Click Here" />
+
+</RelativeLayout>

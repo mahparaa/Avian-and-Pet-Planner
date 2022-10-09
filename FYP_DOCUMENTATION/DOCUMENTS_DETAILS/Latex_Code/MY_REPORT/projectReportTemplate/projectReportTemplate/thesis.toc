@@ -1,0 +1,75 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{1}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problem Description}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objective}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Project Scope}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dog Walk \cite {capsix}}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}My Pet Reminders\cite {capseven}}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Dog Sync\cite {capseight}}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}ASPCA Pet Safety\cite {capsnine}}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Dog Health[9]}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Pet Coach\cite {petcoach}}{6}{section.2.6}
+\contentsline {section}{\numberline {2.7}Pet-First Aid\cite {petfirstage}}{6}{section.2.7}
+\contentsline {section}{\numberline {2.8}Rover\cite {capsrover}}{7}{section.2.8}
+\contentsline {chapter}{\numberline {3}Requirement Specifications}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Existing System}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Proposed System}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Requirement Specification}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Functional Requirements}{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2} Subsystem Functional Requirement}{10}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Non Functional Requirement}{10}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Use Cases}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Use Case (System Diagram)}{12}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Use Case (Website User)}{13}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Use Case (Android User)}{15}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}System Design}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}System Architecture Diagram}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Design Methodology}{26}{section.4.2}
+\contentsline {section}{\numberline {4.3}High Level Deign}{27}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Flow Chart}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Activity Diagrams}{28}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}System Implementation}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}System Architecture}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tools and Technology Used}{31}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Developers Tools}{32}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Languages Used}{32}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Processing Logic}{32}{section.5.3}
+\contentsline {section}{\numberline {5.4}Application Access Security}{33}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Database Security}{34}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {6}System Testing and Evaluation}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Test Cases}{35}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}User Authentication}{35}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Add Pet Profile}{36}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Add Doctor Profile}{37}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}View Pet Profile}{38}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Generate pet Diet Plan}{39}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}View Pet Diseases Detail}{40}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}Notification Alarm}{41}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Take / Cancel Appointment}{42}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Logout}{43}{subsection.6.1.9}
+\contentsline {subsection}{\numberline {6.1.10}Website Test Case}{44}{subsection.6.1.10}
+\contentsline {chapter}{\numberline {7}Conclusions}{45}{chapter.7}
+\contentsline {section}{\numberline {7.1}Future Recommendations}{45}{section.7.1}
+\contentsline {chapter}{\numberline {8}User Manual}{47}{chapter.8}
+\contentsline {section}{\numberline {8.1}Android Application}{47}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Splash Screen}{47}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Login}{48}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Registration}{49}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Home Page}{50}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Diet Plan}{51}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.6}Diseases Details}{52}{subsection.8.1.6}
+\contentsline {subsection}{\numberline {8.1.7}Notification Details}{53}{subsection.8.1.7}
+\contentsline {subsection}{\numberline {8.1.8}Appointment}{54}{subsection.8.1.8}
+\contentsline {subsection}{\numberline {8.1.9}Add Pet Profile}{55}{subsection.8.1.9}
+\contentsline {subsection}{\numberline {8.1.10}View Pet Profile}{56}{subsection.8.1.10}
+\contentsline {subsection}{\numberline {8.1.11}Add as a Doctor}{57}{subsection.8.1.11}
+\contentsline {chapter}{\numberline {9}Appendix}{59}{chapter.9}
+\contentsline {section}{\numberline {9.1}Web Application}{59}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Home Button}{59}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}About us}{60}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Contact Us}{60}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}Appointment}{61}{subsection.9.1.4}
+\contentsline {chapter}{References}{63}{section*.74}

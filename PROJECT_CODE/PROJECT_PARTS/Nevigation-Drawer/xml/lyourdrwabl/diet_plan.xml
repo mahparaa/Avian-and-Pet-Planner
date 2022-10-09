@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tL"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </TableLayout>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Weekly-Diet-Plan"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/dtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="   DAY"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignRight="@+id/dtv7"
+        android:layout_alignEnd="@+id/dtv7"/>
+
+    <TextView
+        android:id="@+id/dtv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dtv2"
+        android:layout_marginTop="39dp"
+        android:text="  MONDAY"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/dtv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="  TUESDAY"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/dtv7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/dtv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dtv8"
+        android:layout_marginTop="30dp"
+        android:text="  WEDNESSDAY"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/dtv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dtv9"
+        android:layout_marginTop="31dp"
+        android:text="  THURSDAY"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/dtv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dtv7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/dtv7"
+        android:layout_below="@+id/dtv10"
+        android:layout_marginTop="33dp"
+        android:text="  FRIDAY"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/dtv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dtv11"
+        android:layout_marginTop="35dp"
+        android:text="  SATURDAY"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/dtv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="  SUNDAY"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/dtv12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/dtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEAL"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_above="@+id/dtv7"
+        android:layout_toRightOf="@+id/dtv9"
+        android:layout_toEndOf="@+id/dtv9"/>
+
+    <TextView
+        android:id="@+id/dtv14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="seed"
+        android:text="seed"
+        android:layout_above="@+id/dtv8"
+        android:layout_alignLeft="@+id/dtv3"
+        android:layout_alignStart="@+id/dtv3"/>
+
+    <TextView
+        android:id="@+id/dtv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME1"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignBaseline="@+id/dtv3"
+        android:layout_alignBottom="@+id/dtv3"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/dtv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dtv4"
+        android:layout_alignBottom="@+id/dtv4"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/dtv4"
+        android:layout_toRightOf="@+id/dtv4"
+        android:text="TIME2"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+    <TextView
+        android:id="@+id/dtv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="TIME3"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignBottom="@+id/dtv5"
+        android:layout_toRightOf="@+id/dtv5"
+        android:layout_toEndOf="@+id/dtv5"
+        android:layout_alignTop="@+id/dtv5"/>
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dtv14"
+        android:layout_alignLeft="@+id/dtv4"
+        android:layout_alignStart="@+id/dtv4"
+        />
+
+    <CheckBox
+        android:id="@+id/ck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ch1"
+        android:layout_alignLeft="@+id/dtv5"
+        android:layout_alignStart="@+id/dtv5"
+        />
+
+    <CheckBox
+        android:id="@+id/ck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck2"
+        android:layout_alignBottom="@+id/ck2"
+        android:layout_alignRight="@+id/dtv6"
+        android:layout_alignEnd="@+id/dtv6"/>
+
+    <CheckBox
+        android:id="@+id/ck4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dtv9"
+        android:layout_alignLeft="@+id/ch1"
+        android:layout_alignStart="@+id/ch1"/>
+
+    <CheckBox
+        android:id="@+id/ck5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck4"
+        android:layout_alignBottom="@+id/ck4"
+        android:layout_alignLeft="@+id/ck2"
+        android:layout_alignStart="@+id/ck2"/>
+
+    <CheckBox
+        android:id="@+id/ck6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck4"
+        android:layout_alignBottom="@+id/ck4"
+        android:layout_alignLeft="@+id/ck3"
+        android:layout_alignStart="@+id/ck3"/>
+
+    <CheckBox
+        android:id="@+id/ck7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dtv10"
+        android:layout_alignLeft="@+id/ck4"
+        android:layout_alignStart="@+id/ck4"
+        />
+
+    <CheckBox
+        android:id="@+id/ck8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ck5"
+        android:layout_alignStart="@+id/ck5"
+        android:layout_alignTop="@+id/ck7"
+        />
+
+    <CheckBox
+        android:id="@+id/ck9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck8"
+        android:layout_alignBottom="@+id/ck8"
+        android:layout_alignLeft="@+id/ck6"
+        android:layout_alignStart="@+id/ck6"/>
+
+    <CheckBox
+        android:id="@+id/ck19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dtv13"
+        android:layout_alignLeft="@+id/ck16"
+        android:layout_alignStart="@+id/ck16"/>
+
+    <CheckBox
+        android:id="@+id/ck16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dtv12"
+        android:layout_alignLeft="@+id/ck13"
+        android:layout_alignStart="@+id/ck13"
+        android:layout_alignRight="@+id/ck13"
+        android:layout_alignEnd="@+id/ck13"/>
+
+    <CheckBox
+        android:id="@+id/ck13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dtv12"
+        android:layout_alignLeft="@+id/ck10"
+        android:layout_alignStart="@+id/ck10"/>
+
+    <CheckBox
+        android:id="@+id/ck10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dtv10"
+        android:layout_alignLeft="@+id/ck7"
+        android:layout_alignStart="@+id/ck7"/>
+
+    <CheckBox
+        android:id="@+id/ck11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck10"
+        android:layout_alignBottom="@+id/ck10"
+        android:layout_alignLeft="@+id/ck8"
+        android:layout_alignStart="@+id/ck8"/>
+
+    <CheckBox
+        android:id="@+id/ck21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck19"
+        android:layout_alignBottom="@+id/ck19"
+        android:layout_alignLeft="@+id/ck9"
+        android:layout_alignStart="@+id/ck9"/>
+
+    <CheckBox
+        android:id="@+id/ck14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ck13"
+        android:layout_alignLeft="@+id/ck11"
+        android:layout_alignStart="@+id/ck11"
+        />
+
+    <CheckBox
+        android:id="@+id/ck17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ck14"
+        android:layout_alignStart="@+id/ck14"
+        android:layout_alignTop="@+id/ck16"
+        />
+
+    <CheckBox
+        android:id="@+id/ck18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck17"
+        android:layout_alignBottom="@+id/ck17"
+        android:layout_alignLeft="@+id/ck21"
+        android:layout_alignStart="@+id/ck21"/>
+
+    <TextView
+        android:id="@+id/dtv15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ck4"
+        android:layout_alignLeft="@+id/dtv14"
+        android:layout_alignStart="@+id/dtv14"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/dtv16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dtv10"
+        android:layout_alignLeft="@+id/dtv15"
+        android:layout_alignStart="@+id/dtv15"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/dtv17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ck10"
+        android:layout_alignLeft="@+id/dtv16"
+        android:layout_alignStart="@+id/dtv16"
+        android:layout_alignTop="@+id/dtv10"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/dtv18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/ck13"
+        android:layout_alignBottom="@+id/ck13"
+        android:layout_alignLeft="@+id/dtv17"
+        android:layout_alignStart="@+id/dtv17"/>
+
+    <TextView
+        android:id="@+id/dtv19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/ck16"
+        android:layout_alignBottom="@+id/ck16"
+        android:layout_alignLeft="@+id/dtv18"
+        android:layout_alignStart="@+id/dtv18"/>
+
+    <TextView
+        android:id="@+id/dtv20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/ck19"
+        android:layout_alignBottom="@+id/ck19"
+        android:layout_alignLeft="@+id/dtv19"
+        android:layout_alignStart="@+id/dtv19"/>
+
+    <CheckBox
+        android:id="@+id/ck12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck11"
+        android:layout_alignBottom="@+id/ck11"
+        android:layout_alignLeft="@+id/ck15"
+        android:layout_alignStart="@+id/ck15"/>
+
+    <CheckBox
+        android:id="@+id/ck15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ck18"
+        android:layout_alignStart="@+id/ck18"
+        android:layout_alignTop="@+id/ck14"
+        />
+
+    <CheckBox
+        android:id="@+id/ck20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ck19"
+        android:layout_alignBottom="@+id/ck19"
+        android:layout_alignLeft="@+id/ck17"
+        android:layout_alignStart="@+id/ck17"/>
+
+
+</RelativeLayout>

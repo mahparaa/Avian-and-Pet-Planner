@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="com.example.mahpara.myapp.HomeAcivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:title="Pet Planner"
+        app:titleTextColor="@android:color/background_light" />
+
+
+    <LinearLayout
+        android:id="@+id/linaer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_addpet_icon"
+            android:paddingLeft="20dp"
+            android:text="@string/pet_profile"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/pet_profile"
+            android:onClick="viewAllData"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="20dp"
+            android:text="@string/view_profile"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/button8"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/cat2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/pet_diet"
+            android:paddingLeft="200dp"
+            android:text="@string/pet_diet_plan"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/button3"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/pet_diseases"
+            android:paddingLeft="200dp"
+            android:text="@string/diseases_and_suggestions"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/pet_notification"
+            android:paddingLeft="200dp"
+            android:text="@string/notification_detail"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            tools:text="Notification Details" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/pet_appointment"
+            android:paddingLeft="200dp"
+            android:text="@string/appointment"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            tools:text="Appointment" />
+    </LinearLayout>
+
+
+</RelativeLayout>

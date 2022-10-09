@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/pet_diet4"
+            android:title="Diet Plan" />
+        <item
+            android:id="@+id/nav_disease"
+            android:icon="@drawable/pet_diesease6"
+            android:title="Diseases and Suggestions" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/pet_diet4"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_appoint"
+            android:icon="@drawable/ic_addpet_icon"
+            android:title="Appointment" />
+    </group>
+
+    <item android:title="Profiles">
+        <menu>
+            <item
+                android:id="@+id/nav_pet"
+                android:icon="@drawable/pet_profile"
+                android:title="Pet Profile" />
+
+
+        </menu>
+    </item>
+
+</menu>

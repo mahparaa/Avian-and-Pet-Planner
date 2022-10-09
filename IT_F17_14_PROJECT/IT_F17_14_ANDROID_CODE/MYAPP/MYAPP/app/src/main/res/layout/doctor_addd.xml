@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:title="Add Doctor"
+        app:titleTextColor="@android:color/background_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/insertImages"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/addimga" />
+
+            <Button
+                android:id="@+id/browse_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:onClick="browseImages"
+                android:text="@string/browse_image"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="@string/enter_name"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/enteremail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/docSpecs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Specification"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/cnic"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="CNIC"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Contact"
+                android:inputType="phone"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/hospitalId"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Hospital Id"
+                android:inputType="textPersonName|number"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="14sp" />
+
+
+            <Button
+                android:id="@+id/uploadData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="@string/upload_data"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="viewAllData"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/view_all_data"
+        android:textSize="14sp" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

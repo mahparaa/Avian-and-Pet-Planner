@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbd4a"
+    android:orientation="horizontal"
+    tools:context="com.example.mahpara.myapp.MainActivity2">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:title="Pet Planner"
+        app:titleTextColor="@android:color/background_light" />
+
+
+    <EditText
+        android:id="@+id/emailregister"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:drawableLeft="@drawable/ic_email_icon"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/passwordregister"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailregister"
+        android:layout_below="@+id/emailregister"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonregister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phnno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/register"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/loginview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonregister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/have_an_account_click_here"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/phnno"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/passwordregister"
+        android:layout_below="@+id/passwordregister"
+        android:ems="10"
+        android:hint="+03330000000"
+        android:drawableLeft="@drawable/ic_phone_icon"
+        android:inputType="phone"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
