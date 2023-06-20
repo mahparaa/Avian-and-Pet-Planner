@@ -1,1 +1,1 @@
-# pet-planner - Complete platform lverages Android and Web base solution to book appontmens and manage pet diet plans and disease details and track them properly. 
+# Pet Planner: A complete platform that leverages Android and Web-based solutions to book appointments, manage pet diet plans and disease details, and track them properly. 
